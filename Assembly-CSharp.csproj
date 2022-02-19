@@ -56,16 +56,19 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\PlayerInventory.cs" />
     <Compile Include="Assets\Packages\Cinemachine\Base\Runtime\Behaviours\CinemachinePath.cs" />
     <Compile Include="Assets\Packages\Cinemachine\Base\Runtime\Core\ICinemachineCamera.cs" />
     <Compile Include="Assets\Packages\Cinemachine\Base\Runtime\Core\CinemachineDebugLogger.cs" />
     <Compile Include="Assets\Packages\Cinemachine\Base\Runtime\Core\UnityVectorExtensions.cs" />
     <Compile Include="Assets\Packages\Cinemachine\Base\Runtime\Behaviours\CinemachineExternalCamera.cs" />
     <Compile Include="Assets\Packages\Cinemachine\Base\Runtime\Behaviours\CinemachineFreeLook.cs" />
+    <Compile Include="Assets\Scripts\Pickup.cs" />
     <Compile Include="Assets\Packages\Cinemachine\Base\Runtime\Behaviours\CinemachineCollider.cs" />
     <Compile Include="Assets\Packages\Cinemachine\Base\Runtime\Core\CinemachinePathBase.cs" />
     <Compile Include="Assets\Packages\Cinemachine\Base\Runtime\Behaviours\CinemachineDollyCart.cs" />
     <Compile Include="Assets\Packages\Cinemachine\Base\Runtime\Core\CinemachineBlenderSettings.cs" />
+    <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Packages\Cinemachine\PostFX\CinemachinePostProcessing.cs" />
     <Compile Include="Assets\Packages\Cinemachine\Base\Runtime\Components\CinemachineOrbitalTransposer.cs" />
     <Compile Include="Assets\Packages\Cinemachine\Base\Runtime\Core\ICinemachineComponent.cs" />
@@ -85,6 +88,7 @@
     <Compile Include="Assets\Packages\Cinemachine\Base\Runtime\Behaviours\CinemachineMixingCamera.cs" />
     <Compile Include="Assets\Packages\Cinemachine\Base\Runtime\Core\CinemachineExtension.cs" />
     <Compile Include="Assets\Packages\Cinemachine\Base\Runtime\Core\AxisState.cs" />
+    <Compile Include="Assets\Scripts\Item.cs" />
     <Compile Include="Assets\Packages\Cinemachine\Base\Runtime\Behaviours\CinemachineSmoother.cs" />
     <Compile Include="Assets\Packages\Cinemachine\Base\Runtime\Core\CinemachineVirtualCameraBase.cs" />
     <Compile Include="Assets\Packages\Cinemachine\Base\Runtime\Behaviours\CinemachineSmoothPath.cs" />
@@ -110,7 +114,7 @@
     <Compile Include="Assets\Packages\Cinemachine\Base\Runtime\Core\CameraState.cs" />
     <Compile Include="Assets\Packages\Cinemachine\Base\Runtime\Core\CinemachineCore.cs" />
     <Compile Include="Assets\Packages\Cinemachine\Base\Runtime\Core\CinemachineBlend.cs" />
-    <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\InventoryUI.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Packages\Cinemachine\ReleaseNotes.txt" />
