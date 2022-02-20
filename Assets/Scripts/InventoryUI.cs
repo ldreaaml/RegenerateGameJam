@@ -41,6 +41,13 @@ public class InventoryUI : MonoBehaviour
 
     public void UpdateUI()
     {
+
+        foreach (Transform child in itemsParentTransform.transform)
+        {
+            GameObject.Destroy(child.gameObject);
+        } 
+
+
         for (int i = 0; i < playerInventory.names.Count; i++)
         {
 

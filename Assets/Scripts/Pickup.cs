@@ -20,7 +20,7 @@ public class Pickup : MonoBehaviour
             playerInventory = other.GetComponent<PlayerInventory>();
             if(playerInventory != null)
             {
-                Debug.Log("Add to Inventory");
+                //Debug.Log("Add to Inventory");
                 playerInventory.AddItem(item.name, item.index, item.sprite);
             }
 

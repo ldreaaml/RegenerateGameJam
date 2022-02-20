@@ -15,12 +15,6 @@ public class PlayerInventory : MonoBehaviour
     public List<Sprite> sprites;
 
     public List<string> names;
-    void Start()
-    {
-    
-
-    }
-
     
 
     public void AddItem(string name, int value, Sprite sprite)
