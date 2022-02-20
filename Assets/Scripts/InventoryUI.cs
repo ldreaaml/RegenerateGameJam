@@ -11,6 +11,7 @@ public class InventoryUI : MonoBehaviour
     public Transform itemsParentTransform;
     public GameObject inventoryUI;
 
+  
 
     void Start()
     {
@@ -29,11 +30,11 @@ public class InventoryUI : MonoBehaviour
         {
             if (inventoryUI.activeSelf)
             {
-                inventoryUI.SetActive(false);
+                HideInventory(); 
             }
             else
             {
-                inventoryUI.SetActive(true);
+                ShowInventory();
             }
             
         }
@@ -60,4 +61,15 @@ public class InventoryUI : MonoBehaviour
         }
         
     }
+
+    public void ShowInventory()
+    {
+        inventoryUI.SetActive(true);
+    }
+
+    public void HideInventory()
+    {
+        inventoryUI.SetActive(false);
+    }
+
 }
